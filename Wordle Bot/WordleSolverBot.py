@@ -44,7 +44,7 @@ def BestGuess(word_lists, result_perms):
 
 
 def WordleBot():
-    time.sleep(1)
+    time.sleep(3)
     running = True
     board = pag.locateOnScreen('Board.png', confidence=.8)
     pag.leftClick(board)
